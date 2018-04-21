@@ -1,4 +1,4 @@
-#Vsearch
+# Vsearch
 
 The backend of this project was created using Spring Boot.  Currently, the backend is only concerned with querying IBM Watson services for token retrieval.
 
