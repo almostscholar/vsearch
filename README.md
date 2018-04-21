@@ -1,6 +1,14 @@
+#Vsearch
+
+The backend of this project was created using Spring Boot.  Currently, the backend is only concerned with querying IBM Watson services for token retrieval.
+
+## Running the tomcat server
+
+After building the angular app (see below), run `./gradlew run` to start a server hosted at `http://localhost:8080`.
+
 # VsearchUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+The frontend of this project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
 ## Development server
 
@@ -12,7 +20,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `src/main/resources/public` directory of the vsearch project. Use the `-prod` flag for a production build.
 
 ## Running unit tests
 
